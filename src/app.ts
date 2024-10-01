@@ -3,7 +3,6 @@ import express from 'express';
 import authRoutes from './routes/authRoutes';
 import logRoutes from './routes/logRoutes';
 import { errorHandler } from './middleware/errorHandler';
-import { authenticate } from './middleware/auth';
 
 const app = express();
 
